@@ -63,9 +63,9 @@ export default function Dashboard(){
        
     return(
             <>
-            <div class="container-fluid" id="dash">
+            <div class="container" id="dash">
                     <div class="row">
-                        <div class="col-md-2 dm-md-block sidebar" id="vasa">
+                        <div class="col-2 dm-md-block sidebar" id="vasa">
                                 <div class="left-sidebar" id="side">
                                         <ul class="nav flex-column sidebar-nav">
                                                 <li className="nav-item" id="ss">{converse.user.name}</li>
@@ -95,11 +95,11 @@ export default function Dashboard(){
                     <>
                    <div class="row"  id="tit">
                         <div class="col-12 justify-content-md-center">
-                                <div class="row" style={{textAlign:"right", paddingLeft:"120px"}}><h1>Tus Asignaturas</h1></div>
-                              
-                                        <div class="container">
+                        <div style={{ paddingLeft:"120px"}}><h1>Tus Asignaturas</h1></div>
+                                <div class="row" style={{ paddingLeft:"120px"}}>
+                             
                                         {
-                                                next.map((curso,i)=>(<div key={i} className="card col-lg-4 col-md-6 col-sm-6 my-3">
+                                                next.map((curso,i)=>(<div key={i} id="tarjeta2" className="card col-lg-4 col-md-4 col-sm-6 my-3 mx-2">
                                               {curso.name}
                                              
                                               <div className="card-body">
@@ -117,7 +117,8 @@ export default function Dashboard(){
                                               </div>))
                                 
                                         }
-                                </div>
+                                
+                        </div>
                         </div>
                 </div>
                     </>

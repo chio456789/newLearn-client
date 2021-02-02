@@ -63,7 +63,7 @@ return(
    <div className="row">
 
    <ReactPlayer
-        url="https://www.youtube.com/watch?v=Sycoz4sv1Hg"
+        url={auxiliar.name.url}
       />
  
 

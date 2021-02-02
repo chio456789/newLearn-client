@@ -2,6 +2,7 @@ import React,{useContext, useEffect,useState} from 'react';
 import './App.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faHouseUser, faSignOutAlt} from "@fortawesome/free-solid-svg-icons";
 import { withRouter } from "react-router-dom";
 import {UserContext} from './context';
 import {signout} from './apicomp';
@@ -138,14 +139,14 @@ useEffect(()=> {
                 
               <li className="nav-item">
 
-              <Link to="/dashboard"  className="nav-link active mx-3 px-3" id="reg">Profile</Link>
+              <Link to="/dashboard"  className="nav-link active mx-3 px-3" id="reg"><span><FontAwesomeIcon icon={faHouseUser}/></span></Link>
 
               </li>
               <li className="nav-item">
               <button  className="nav-link active mx-3 px-3" id="reg" onClick={()=>signout(()=>{
                 history.push("/home")
                 setUser(false);
-                })} >Sign out</button>
+                })} ><span><FontAwesomeIcon icon={faSignOutAlt}/></span></button>
               </li>
               </>
       

@@ -52,10 +52,10 @@ setCursosTecnologia(tecnologia)
 
            <div className="row"  id="finanzas">
              <div className="col-12 justify-content-md-center">
-              <div className="row"><h1>Cursos Express</h1></div>
+              <div className="row"><h3>Cursos Tecnologia</h3></div>
              
              <div className="row">
-             {cursoTecnologia.map((curso,i)=>(<div key={i} className="col-lg-4 col-md-6 col-sm-6">
+             {cursoTecnologia.map((curso,i)=>(<div key={i} className="col-lg-3 col-md-6 col-sm-6">
                 <Card curso={curso}/>
              </div>))}
              </div>
@@ -65,10 +65,10 @@ setCursosTecnologia(tecnologia)
            </div>
            <div className="row"  id="diseño">
              <div className="col justify-content-md-center">
-              <div className="row"><h1>Cursos Finanzas</h1></div>
+              <div className="row"><h3>Cursos Finanzas</h3></div>
              
              <div className="row">
-             {cursoFinanzas.map((curso,i)=>(<div key={i} className="col-lg-4 col-md-6 col-sm-6">
+             {cursoFinanzas.map((curso,i)=>(<div key={i} className="col-lg-3 col-md-6 col-sm-6">
                 <Card curso={curso}/>
              </div>))}
              </div>
@@ -78,10 +78,10 @@ setCursosTecnologia(tecnologia)
            </div>
            <div className="row"  id="tecnologia">
              <div className="col justify-content-md-center">
-              <div className="row"><h1>Cursos Diseño Artistico</h1></div>
+              <div className="row"><h3>Cursos Diseño Artistico</h3></div>
              
              <div className="row">
-             {cursoDiseño.map((curso,i)=>(<div key={i} className="col-lg-4 col-md-6 col-sm-6">
+             {cursoDiseño.map((curso,i)=>(<div key={i} className="col-lg-3 col-md-6 col-sm-6">
                 <Card curso={curso}/>
              </div>))}
              </div>

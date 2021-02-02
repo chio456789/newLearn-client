@@ -70,7 +70,7 @@ export default function Login (){
 
 <form>
 
-<div style={{textAlign:"center"}}><label style={{fontFamily:"sans-serif",fontWeight:"bold" }}>SignIn</label></div>
+<div style={{textAlign:"center"}}><label style={{fontFamily:"sans-serif",fontWeight:"bold" }}>Iniciar Sesion</label></div>
   
   <div className="form-group content-center">
     <label>Correo Electronico</label>

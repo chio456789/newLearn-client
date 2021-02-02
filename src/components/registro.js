@@ -124,7 +124,7 @@ if (!isValid) {
 <div className="container" id="registro">
 
 <form>
-<div style={{textAlign:"center"}}><label style={{fontFamily:"sans-serif",fontWeight:"bold" }}>SignUp</label></div>
+<div style={{textAlign:"center"}}><label style={{fontFamily:"sans-serif",fontWeight:"bold" }}>Registro</label></div>
 
   <div className="form-group content-center">
     <label>Nombres</label>
